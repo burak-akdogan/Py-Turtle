@@ -6,3 +6,5 @@ Imagine a robotic turtle starting at (0, 0) in the x-y plane. After an import tu
 
 ![image](https://user-images.githubusercontent.com/66314810/218330713-1b23ebbd-d45e-41f3-ba44-39580f357bee.png)
 
+Py turtle provides a simple set of functions that allow users to draw shapes, lines, and colors on a graphical canvas, as well as to control the turtle's movement and appearance. It can be used to create a wide variety of simple and complex drawings and animations, including fractals, spirals, and games. Py turtle is included in the standard Python distribution and is easy to learn for beginners, making it a popular tool for teaching programming concepts and logic. It also has a variety of built-in features such as event handling, image processing, and sound.
+
