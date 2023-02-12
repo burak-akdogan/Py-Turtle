@@ -1,0 +1,34 @@
+Python	Turtle	Cheat	Sheet
+turtle.up():	Sets	the	pen	state	to	be	up	(not	drawing).
+turtle.down():	Sets	the	pen	state	to	be	down	(drawing).
+turtle.right(degrees):		Turns	the	direction	that	the	turtle	is	facing	right	(clockwise)	by	
+the	amount	indicated	(in	degrees).
+turtle.left(degrees):	Turns	the	direction	that	the	turtle	is	facing	left	(counter	
+clockwise)	by	the	amount	indicated	(in	degrees).
+turtle.forward(distance):	Moves	the	turtle	forward	(in	the	direction	the	turtle	is	
+facing)	the	distance	indicated	(in	pixels).	Draws	a	line	if	the	pen	is	down,	not	if	the	pen	is	up.
+turtle.backward(distance):	Moves	the	turtle		backward	(in	the	direction	opposite	to	
+how	the	turtle	is	facing)	the	distance	indicated	(in	pixels).		Draws	a	line	if	the	pen	is	down,	not	if	
+the	pen	is	up.
+turtle.setheading(angle):	Sets	the	orientation	of	the	turtle	to	angle.	Here	are	some	
+common	directions	in	degrees:	0	(east),	90	(north),	180	(west),	270	(south).
+turtle.goto(x,y):	Moves	the	turtle	to	the	specified	coordinates,	drawing	a	straight	line	to	
+the	destination	(x,y)	if	the	pen	is	down,	and	not	drawing	if	the	pen	is	up.		
+turtle.color(r,g,b),	turtle.color(s)	/	turtle.fillcolor(r,g,b),	
+turtle.fillcolor(s):		Sets	the	color	of	the	line	/	fill	color	that	the	pen	will	use	until	the	
+color	/	fill	color	is	changed.		It	takes	either	
+1. three	arguments,	each	a	floating-point	number	between	0.0—1.0,	where	the	first	
+indicates	the	amount	of	red,	the	second,	the	amount	of	green,	and	the	third	the	amount	
+of	blue;	or
+2. a	“color	string”	–	the	name	of	a	Tk	color	(e.g.,		“black”,	“red”,	“blue”,	…)
+The	default	pen	color	and	fill	color	is	“black”.	
+turtle.circle(radius):	Draws	a	circle	of	the	indicated	radius.	The	turtle	draws	the	circle	
+tangent	to	the	direction	the	turtle	is	facing.		
+turtle.begin_fill(),	turtle.end_fill():		To	fill	a	figure,	use	turtle.begin_fill()	
+before	you	start	drawing	the	figure.	Draw	the	figure.		Then	execute	turtle.end_fill().		The	figure	
+drawn	between	the	two	fill	commands	will	be	filled	with	the	present	color	setting.
+turtle.hideturtle(),	turtle.showturtle():	Sets	the	state	to	hide	/	show	the	
+turtle.		When	shown,	you	see	it	as	a	small	arrowhead	pointed	in	the	direction	of	the	heading.
+turtle.xcor(),	turtle.ycor():	Returns	the	x-coordinate	/	y-coordinate	of	the	current	
+pen	position.
+turtle.bye():	Close	the	turtle	drawing	window.
